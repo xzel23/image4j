@@ -6,7 +6,7 @@
 
 	<groupId>com.dua3</groupId>
 	<artifactId>image4j</artifactId>
-	<version>0.7.2</version>
+	<version>0.7.2m</version>
 	<packaging>jar</packaging>
 
 	<name>image4J</name>
@@ -25,4 +25,11 @@
         <sourceDirectory>${basedir}/src</sourceDirectory>
     </build>
 
+	<distributionManagement>
+		<repository>
+			<id>bintray-dua3-public</id>
+			<name>dua3-public</name>
+			<url>https://api.bintray.com/maven/dua3/public/com.dua3.image4j/;publish=1</url>
+		</repository>
+	</distributionManagement>
 </project>
