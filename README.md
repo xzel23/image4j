@@ -1,5 +1,7 @@
 # image4j
 
+This fork is based on [imcdonagh/Image4J](https://github.com/imcdonagh/image4j) and adds a module descriptor (image4j). Java 11+ is needed to use it.
+
 ## Overview
 
 The image4j library allows you to read and write certain image formats in 100% pure Java.
