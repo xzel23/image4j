@@ -1,3 +1,4 @@
 target/
 /image4j.iml
-/.idea/
+/.*
+
